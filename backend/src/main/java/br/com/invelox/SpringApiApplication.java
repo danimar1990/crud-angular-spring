@@ -19,11 +19,11 @@ public class SpringApiApplication {
         return args -> {
             courseRepository.deleteAll();
 
-            Course c = new Course();
-            c.setName("Angular com Sprint");
-            c.setCategory("front-end");
+//            Course c = new Course();
+//            c.setName("Angular com Sprint");
+//            c.setCategory("front-end");
 
-            courseRepository.save(c);
+//            courseRepository.save(c);
         };
     }
 
